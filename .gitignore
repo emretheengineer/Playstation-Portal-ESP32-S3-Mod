@@ -1,0 +1,29 @@
+# Arduino build output and generated binaries
+build/
+*.elf
+*.map
+*.bin
+*.hex
+*.uf2
+*.o
+*.d
+*.a
+*.tmp
+
+# IDE / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+*.swp
+*~
+
+# Logs, local captures, temporary files
+*.log
+*.bak
+*.orig
+*.zip
+
+# Local build configurations / credentials
+.env
+.env.*
